@@ -1,42 +1,98 @@
 body {
-font-family: Arial, Helvetica, sans-serif;
-background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
 }
-body >header{
+
+body > header {
     background-color: white;
 }
-header{
+
+header {
     text-align: center;
 }
+
 h1 {
-    color:#1a41d6
+    color: #1a41d6;
 }
-nav{
-    background-color:black;
+
+nav {
+    background-color: black;
     margin: 4px;
     text-align: center;
-}
-nav ul li{
-    list-style-type: none ;
-    color: whitesmoke;
-    display: inline-block;
-    padding: 14px 12px;
+}s
 
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
-h2{
-    color:#1a41d6
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
 }
-.card img{
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 14px 12px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #dadce5;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+}
+
+h2 {
+    color: #1a41d6; 
+}
+
+.card img {
     max-width: 300px;
     margin-left: 420px;
-
 }
-section{
-    background-color: white ;
+
+section {
+    background-color: white;
     padding: 4px;
     border-radius: 4px;
     margin: 10px;
 }
-ul li{
+
+ul li {
     padding: 0;
+}
+
+/* Grid Layout for Curriculum */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #e0e0e0; 
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: #333; 
+    max-width: 150px; 
+    box-sizing: border-box; 
+}
+
+.grid-item h3 {
+    color: #1a41d6;
+    margin: 0 0 10px 0; 
+}
+
+.grid-item p {
+    font-size: 10px; 
+    margin: 0; 
+}
+footer{
+    color: white;
 }
