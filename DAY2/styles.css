@@ -19,7 +19,7 @@ nav {
     background-color: black;
     margin: 4px;
     text-align: center;
-}
+}s
 
 nav ul {
     padding: 0;
@@ -29,7 +29,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px; /* Space between menu items */
+    margin-right: 20px; 
 }
 
 nav ul li a {
@@ -37,17 +37,17 @@ nav ul li a {
     color: whitesmoke;
     padding: 14px 12px;
     display: inline-block;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #f0f1f6; /* Change text color on hover */
-    box-shadow: 0px 0px 10px 3px rgba(243, 243, 243, 0.6); /* Light white box shadow on hover */
-    border-radius: 4px; /* Optional: Rounded corners for the shadow effect */
+    color: #dadce5;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
 }
 
 h2 {
-    color: #1a41d6;
+    color: #1a41d6; 
 }
 
 .card img {
@@ -64,4 +64,32 @@ section {
 
 ul li {
     padding: 0;
+}
+
+/* Grid Layout for Curriculum */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #e0e0e0; 
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: #333; 
+    max-width: 150px; 
+    box-sizing: border-box; 
+}
+
+.grid-item h3 {
+    color: #1a41d6;
+    margin: 0 0 10px 0; 
+}
+
+.grid-item p {
+    font-size: 10px; 
+    margin: 0; 
 }
