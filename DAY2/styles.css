@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    box-shadow: 10px 10px 10px rgba(163, 54, 63, 0.3);
+    box-shadow: 10px 10px 10px rgba(163, 54, 63, 0.292);
     border-radius: 20px;
     background-color: rgba(26, 189, 218, 0.1);
 }
