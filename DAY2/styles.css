@@ -222,3 +222,7 @@ footer {
 .social-icon:hover {
     transform: scale(1.2);
 }
+.video-section iframe{
+    display: block;
+    margin:0 auto;
+}
