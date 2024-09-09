@@ -203,3 +203,26 @@ footer {
 .hex:nth-child(even) {
     transform: translateY(-40px);
 }
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+.video-section iframe{
+    display: block;
+    margin:0 auto;
+}
