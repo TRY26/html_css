@@ -226,3 +226,13 @@ footer {
     display: block;
     margin:0 auto;
 }
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: #4a27c8e5;
+    color: rgb(207, 38, 38);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
